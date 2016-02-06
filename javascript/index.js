@@ -10,7 +10,7 @@ app.on('ready', function(){
 	var dir = __dirname;
 	dir = dir.slice(0,-10);
 	mainWindow.loadURL('file://'+ dir + '/html/index.html');
-  mainWindow.openDevTools({detach:true});
+  	mainWindow.openDevTools({detach:true});
 });
 
 var CarDiv = ['l1', 'l2', 'r1', 'r2'];

@@ -19,3 +19,33 @@ $(document).keypress(function(e) {
 
   }
 });
+
+var enemyCar=function(){
+  return '<img src="../resources/enemyCar.jpg" id="enemy">';
+}
+var randomIndex=function(){
+  var divIndex=Math.floor(Math.random()*4);
+  return carDiv[divIndex];
+}
+var generateEnemy = function(div,position){
+  $('#'+position-4).remove();
+   var enemy = $('<img src="../resources/enemyCar.jpg" id='+position+' style="top:'+position+'vh" />');
+    $('.'+div).append(enemy);
+}
+
+var moveEnemy = function(div,position){
+  var car=$('#'+position)[0];
+  console.log(car);
+}
+var callEnemy = function(){
+  
+  var position=4;
+  var div=randomIndex();
+  setInterval(function(){
+      position+=4;
+      generateEnemy(div,position);
+    }, 500); 
+}
+
+
+setInterval(callEnemy,1000);
