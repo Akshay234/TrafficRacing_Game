@@ -3,7 +3,7 @@
   position: absolute;
   top: 7vh;
   left: 28vw;
-  width: 36vw;
+  width: 34vw;
   height: 90vh;
   border: 2px solid black;
 }
@@ -15,11 +15,8 @@ div[class$='_border'] {
 }
 
 .middle {
-  position: absolute;
-  left: 2vw;
   width: 30vw;
-  height: 12vh;
-  top: 78vh;
+  height: 90vh;
 }
 
 .left_border {
@@ -33,12 +30,13 @@ div[class$='_border'] {
   font-size: 45px;
   bottom: 0vw;
   left: 15vw;
-    left: 34vw;
+    left: 32vw;
 }
 
 .l1 {
+  left: 2vw;
   width: 7.5vw;
-  height: 12vh;
+  height: 90vh;
   position: absolute;
   /*background-color: crimson;*/
 }
@@ -46,7 +44,7 @@ div[class$='_border'] {
 .l2 {
   left: 7.5vw;
   width: 7.5vw;
-  height: 12vh;
+  height: 90vh;
   position: absolute;
   /*background-color: blue;*/
 }
@@ -54,7 +52,7 @@ div[class$='_border'] {
 .r1 {
   left: 17vw;
   width: 7.5vw;
-  height: 12vh;
+  height: 90vh;
   position: absolute;
   /*background-color: green;*/
 }
@@ -62,7 +60,7 @@ div[class$='_border'] {
 .r2 {
   left: 24.5vw;
   width: 7.5vw;
-  height: 12vh;
+  height: 90vh;
   position: absolute;
   /*background-color: grey;*/
 }
@@ -75,6 +73,8 @@ div[class$='_border'] {
 }
 
 img {
+  position: absolute;
+  top: 78vh;
   width: 70%;
-  height: 80%;
+  height: 10%;
 }
