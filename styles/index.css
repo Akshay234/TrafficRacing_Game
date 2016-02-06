@@ -1,0 +1,80 @@
+#road {
+  background-color: black;
+  position: absolute;
+  top: 7vh;
+  left: 28vw;
+  width: 36vw;
+  height: 90vh;
+  border: 2px solid black;
+}
+
+div[class$='_border'] {
+  position: absolute;
+  width: 2vw;
+  height: 90vh;
+}
+
+.middle {
+  position: absolute;
+  left: 2vw;
+  width: 30vw;
+  height: 12vh;
+  top: 78vh;
+}
+
+.left_border {
+  color: white;
+  font-size: 45px;
+  bottom: 0vw;
+}
+
+.right_border {
+  color: white;
+  font-size: 45px;
+  bottom: 0vw;
+  left: 15vw;
+    left: 34vw;
+}
+
+.l1 {
+  width: 7.5vw;
+  height: 12vh;
+  position: absolute;
+  /*background-color: crimson;*/
+}
+
+.l2 {
+  left: 7.5vw;
+  width: 7.5vw;
+  height: 12vh;
+  position: absolute;
+  /*background-color: blue;*/
+}
+
+.r1 {
+  left: 17vw;
+  width: 7.5vw;
+  height: 12vh;
+  position: absolute;
+  /*background-color: green;*/
+}
+
+.r2 {
+  left: 24.5vw;
+  width: 7.5vw;
+  height: 12vh;
+  position: absolute;
+  /*background-color: grey;*/
+}
+
+.middle_border {
+  color: white;
+  font-size: 45px;
+  bottom: 0vw;
+  left: 15vw;
+}
+
+img {
+  width: 70%;
+  height: 80%;
+}
